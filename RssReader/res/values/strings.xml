@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RssReader</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_rss_center">订阅中心</string>
+     <string name="action_rss_add">添加订阅</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_rss_feed">Loading RSS feed...</string>
+    <string name="title_activity_news_details">NewsDetailsActivity</string>
+    <string name="title_activity_rss_center">RssCenterActivity</string>
+    <string name="title_activity_add_channe">AddChanneActivity</string>
+    <string name="title_activity_news_pager">NewsPagerActivity</string>
+    <string name="action_share">分享</string>
+
+</resources>
