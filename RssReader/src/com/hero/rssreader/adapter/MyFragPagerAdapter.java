@@ -32,7 +32,11 @@ public class MyFragPagerAdapter extends FragmentPagerAdapter {
 
 	@Override
 	public CharSequence getPageTitle(int position) {
-		return titles.get(position);
+		String title = titles.get(position);
+		if(title.length()>8){
+			title = title.substring(0,8);
+		}
+		return title;
 	}
 
 	@Override
